@@ -62,6 +62,7 @@ export const pt: Dictionary = {
     demo: "Demo",
     all: "Todos os repositórios",
     projects: {
+      nexus: "Servidor MCP local para o Claude Code que indexa seus repositórios e entrega ao agente o código, a linha exata e as decisões do time. Sou o fundador.",
       relayguard: "Entrega de webhooks com alta disponibilidade, estratégias de retry e filas assíncronas.",
       postgresOperator: "Operator de Kubernetes que gerencia instâncias PostgreSQL de forma declarativa.",
       httpStorm: "Servidor HTTP/1.1 assíncrono em C++20 sobre epoll do Linux, com TLS 1.3 e middlewares.",

@@ -60,6 +60,7 @@ export const en = {
     demo: "Demo",
     all: "All repositories",
     projects: {
+      nexus: "Local MCP server for Claude Code that indexes your repositories and hands the agent the right code, exact line and team decisions. I'm the founder.",
       relayguard: "High-availability webhook delivery with retry strategies and async processing queues.",
       postgresOperator: "Kubernetes operator that manages PostgreSQL instances declaratively.",
       httpStorm: "Asynchronous HTTP/1.1 server in C++20 on Linux epoll, with TLS 1.3 and middleware.",

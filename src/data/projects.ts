@@ -3,16 +3,19 @@
  * Descriptions are localized in `src/locales`; live metadata (URL, stars,
  * homepage) is fetched from the GitHub API in `src/lib/github.ts`.
  */
-export type ProjectSlug = "relayguard" | "postgresOperator" | "httpStorm" | "sentinel" | "logstream" | "miniRuntime";
+export type ProjectSlug = "nexus" | "relayguard" | "postgresOperator" | "httpStorm" | "sentinel" | "logstream" | "miniRuntime";
 
 export interface ProjectSeed {
   slug: ProjectSlug;
   repo: string;
   name: string;
   tags: string[];
+  /** Fallback when the repo has no homepage set on GitHub. */
+  homepage?: string;
 }
 
 export const projects: ProjectSeed[] = [
+  { slug: "nexus", repo: "Nexus", name: "Nexus", tags: ["Rust", "TypeScript", "MCP"], homepage: "https://eduardoxdev.github.io/Nexus/" },
   { slug: "relayguard", repo: "RelayGuard-High-Availability-Webhook-Engine", name: "RelayGuard", tags: ["Go", "Docker"] },
   { slug: "postgresOperator", repo: "Postgres-Operator", name: "Postgres Operator", tags: ["Go", "Kubernetes", "PostgreSQL"] },
   { slug: "httpStorm", repo: "HTTP-Storm", name: "HTTP Storm", tags: ["C++20", "epoll", "TLS 1.3"] },

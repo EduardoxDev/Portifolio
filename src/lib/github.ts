@@ -85,7 +85,7 @@ export async function getGitHubData(): Promise<GitHubData> {
     return {
       ...seed,
       url: repo?.html_url ?? `${profile.github.url}/${seed.repo}`,
-      homepage: repo?.homepage || undefined,
+      homepage: repo?.homepage || seed.homepage,
       stars: repo?.stargazers_count,
     };
   });
