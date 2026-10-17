@@ -50,6 +50,15 @@ export const profile = {
 
   experience: [
     {
+      id: "nexus",
+      org: "Nexus",
+      url: "https://eduardoxdev.github.io/Nexus/",
+      repo: "https://github.com/EduardoxDev/Nexus",
+      start: "2026",
+      current: true,
+      tags: ["Rust", "TypeScript", "MCP"],
+    },
+    {
       id: "otimiza",
       org: "Otimiza",
       url: "https://otimiza-oficial.github.io/Otimiza/",
@@ -69,7 +78,7 @@ export const profile = {
       tags: ["Go", "Docker", "CLI"],
     },
   ] as {
-    id: "otimiza" | "stackr";
+    id: "nexus" | "otimiza" | "stackr";
     org: string;
     url: string;
     repo: string;

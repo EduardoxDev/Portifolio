@@ -22,6 +22,17 @@ export const en = {
     present: "Present",
     current: "Current",
     items: {
+      nexus: {
+        role: "Founder",
+        subtitle: "Nexus · Local MCP server for Claude Code",
+        summary:
+          "Founded and build Nexus, a local MCP server that indexes your repositories and gives AI agents the right code, the exact line and the team's decisions.",
+        points: [
+          "14 MCP tools for agents: code search, context packs for a task and persistent memory of confirmed decisions",
+          "Code stays on the machine — the index and memory live in a local file and secrets like .env and keys are ignored",
+          "Desktop app and Windows installer, open source under the MIT license",
+        ],
+      },
       otimiza: {
         role: "Otimiza",
         subtitle: "Cross-platform performance tool",

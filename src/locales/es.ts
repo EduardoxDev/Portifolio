@@ -24,6 +24,17 @@ export const es: Dictionary = {
     present: "Actual",
     current: "Ahora",
     items: {
+      nexus: {
+        role: "Founder",
+        subtitle: "Nexus · Servidor MCP local para Claude Code",
+        summary:
+          "Fundé y desarrollo Nexus, un servidor MCP local que indexa tus repositorios y entrega a los agentes de IA el código correcto, la línea exacta y las decisiones del equipo.",
+        points: [
+          "14 herramientas MCP para agentes: búsqueda en el código, paquetes de contexto por tarea y memoria de las decisiones confirmadas",
+          "El código se queda en la máquina — índice y memoria viven en un archivo local y secretos como .env y claves se ignoran",
+          "App de escritorio e instalador para Windows, open source bajo licencia MIT",
+        ],
+      },
       otimiza: {
         role: "Otimiza",
         subtitle: "Herramienta de rendimiento multiplataforma",
